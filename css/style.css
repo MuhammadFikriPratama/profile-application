@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+  position: relative;
+}
+
+nav {
+  background-color: #C10000;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+main {
+  padding: 25px;
+  overflow: auto;
+}
+
+aside {
+  float: right;
+  padding-left: 20px;
+  width: 25%;
+}
+
+h2 {
+  color: #FF4949;
+  text-decoration: underline
+}
+
+h3 {
+  color: #544343;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 150px;
+  background-color: #a7001f;
+  text-align: center;
+  color: white;
+}
+
+.profile header {
+  text-align: center;
+  display: inline-block
+}
+
+.featured-image {
+  max-width: 60%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+ 
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: .5rem;
+  }
+ 
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+aside {
+    text-align: center;
+    float: right;
+    padding-left: 20px;
+    width: 25%;
+  }
+
+.logo {
+  width: 150px;
+}
+
+.sizevideo {
+  width: 100px;
+  max-height: 30px;
+  position: static;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  
+}
+
+.box {
+  background-color: #910101;
+  border-radius: 5px;
+  border: 1px solid #000;
+  width: auto;
+  padding: 5px;
+  display: inline-block;
+}
+
+.box p {
+  font-size: 11.5px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+p#fourth {
+   text-align: justify;
+} */
+
+p#letter {
+   letter-spacing: 4px;
+}
+
+button[type="submit"] {
+  background-color: #7a7a7a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  width: 32.5%;
+  height: auto;
+  margin: 3px;
+  border-radius: 7px;
+}
+
+label {
+  color: #a7001f;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Assistant", sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: rgb(0, 0, 0);
+}
+
+.footer-bottom{
+  background: #807f7f;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+.article-figure img {
+  display: block;
+  margin: auto;
+}
+
